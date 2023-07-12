@@ -283,3 +283,41 @@ https://youtu.be/OMPfEXIlTVE
 # Evolvability: Making Change Easy
 
 ---
+
+# Jim's Philosophies
+
+---
+
+# Jim's Philosophies
+- Bases are safe, acid is dangerous
+
+<!-- Know where your data is safe. Avoid transactions or isolation settings that could cause stale dat -->
+
+---
+
+# Jim's Philosophies
+- Bases are safe, acid is dangerous
+- Test your guarantees
+
+https://jepsen.io/analyses
+
+<!-- Don't use MongoDB. There are so many issues they've fixed. A query could pick up a duplicate read. -->
+---
+
+# Jim's Philosophies
+- Bases are safe, acid is dangerous
+- Test your guarantees
+- A hammer is a hammer
+
+<!-- Tools give you guarantees. Sometimes no one has tested those guarantees. Don't adapt a tool to get guarantees it wasn't designed for. Redis takes forever to rebuild the cache. Rabbitmq is slowed down when it writes to disk. -->
+
+---
+
+
+# Jim's Philosophies
+- Bases are safe, acid is dangerous
+- Test your guarantees
+- A hammer is a hammer
+- Know what's an acceptable failure
+
+<!-- You know that failures are guaranteed. What's better the user having to make the same request twice or the user getting billed. -->
