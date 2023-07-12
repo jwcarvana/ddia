@@ -1,0 +1,12 @@
+{
+    "name": "ddia",
+    "version": "1.0.0",
+    "description": "Designing Data Intensive Applications Slides",
+    "scripts": {
+        "build": "marp -I . -o build",
+        "dev": "marp -s -I ."
+    },
+    "dependencies": {
+        "@marp-team/marp-cli": "^2.3.0"
+    }
+}
